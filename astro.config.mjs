@@ -6,6 +6,6 @@ import tailwind from '@astrojs/tailwind'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://craftzfox.vercel.app',
+  site: 'https://craftzfox-uses.vercel.app',
   integrations: [sitemap(), react(), image(), tailwind()]
 })
