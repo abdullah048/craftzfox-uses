@@ -42,14 +42,14 @@ const posts = (await Astro.glob('./posts/*.md')).sort(
         </section>
         <secion>
           {
-            /*<ul class='grid grid-cols-1 md:grid-cols-2 gap-4'>
+            <ul class='grid grid-cols-1 md:grid-cols-2 gap-4'>
             {
               posts.map(post => (
                 <li class='text-center mb-4'>
                   <a href={post.url}>
                     <Image
                       class='border-2 border-slate-300 dark:border-zinc-600 rounded-xl'
-                      src={post.frontmatter.heroImage}
+                      src={post.frontmatter.heroImage ? post.frontmatter.heroImage : 'placeholder-hero.jpg'}
                       width={720 * 2}
                       aspectRatio={2.0}
                       alt='thumbnail'
@@ -60,7 +60,7 @@ const posts = (await Astro.glob('./posts/*.md')).sort(
                 </li>
               ))
             }
-          </ul>*/
+          </ul>
           }
         </secion>
       </Content>

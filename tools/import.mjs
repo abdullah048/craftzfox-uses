@@ -10,8 +10,8 @@ const liveExport = new LiveExporter({
   port: Number(INKDROP_PORT)
 })
 
-const basePath = './src/pages/posts'
-const publicPath = './public/posts'
+const basePath = `./src/pages/posts`
+const publicPath = `./public/posts`
 
 await liveExport.start({
   live: true,
@@ -44,6 +44,7 @@ await liveExport.start({
         url: `/posts/${fn}`
       }
       if (mdastNode.alt === 'thumbnail') {
+        console.log('mdastNode',mdastNode)
         frontmatter.heroImage = res.url
       }
       return res
