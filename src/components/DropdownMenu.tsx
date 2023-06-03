@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Menu, Transition } from '@headlessui/react'
-import { IoMenu } from 'react-icons/io5';
+import { IoMenu } from 'react-icons/io5/index';
 import DropDownMenuItem from './DropdownMenuItem';
 
 interface IDropDownMenuProps {
