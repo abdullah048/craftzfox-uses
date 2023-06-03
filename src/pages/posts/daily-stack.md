@@ -8,6 +8,7 @@ createdAt: 1685771252869
 updatedAt: 1685772974439
 tags:
   - Blog
+  - Tech
 heroImage: /posts/daily-stack_thumbnail.png
 ---
 

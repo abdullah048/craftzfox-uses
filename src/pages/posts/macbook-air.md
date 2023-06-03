@@ -8,6 +8,7 @@ createdAt: 1685768627723
 updatedAt: 1685770412441
 tags:
   - Blog
+  - Computing
 heroImage: /posts/macbook-air_thumbnail.png
 ---
 
